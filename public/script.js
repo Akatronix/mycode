@@ -9,8 +9,8 @@ const configuration = {
   iceServers: [{ urls: "stun:stun.l.google.com:19302" }], // Public STUN server
 };
 
-// const socket = io("http://localhost:3000");
-const socket = io("https://smart-iot-irrigation-system.onrender.com");
+const socket = io("http://localhost:10000");
+// const socket = io("https://smart-iot-irrigation-system.onrender.com");
 
 // Handle signaling data from server
 socket.on("offer", async (data) => {

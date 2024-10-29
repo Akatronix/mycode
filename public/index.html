@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Smart Irrigation System</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="navbar">
+      <a href="/">
+        <img src="./Clandestine.jpg" alt="logo" />
+        <span>Smart Irrigation System</span>
+      </a>
+      <button id="startButton">connect</button>
+    </div>
+    <div class="container">
+      <div class="videoBox">
+        <video id="localVideo" autoplay muted playsinline></video>
+        <video id="remoteVideo" autoplay playsinline></video>
+      </div>
+      <div class="sensor"></div>
+    </div>
+
+    <script src="/socket.io/socket.io.js"></script>
+    <script src="script.js"></script>
+    <script src="https://cdn.socket.io/4.0.0/socket.io.min.js"></script>
+  </body>
+</html>
+
+<!-- 
+
+    
+   
+
+-->

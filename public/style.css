@@ -1,0 +1,80 @@
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  width: 100vw;
+  background: red;
+  display: flex;
+  align-items: start;
+  justify-content: start;
+  flex-wrap: wrap;
+}
+
+.sensor {
+  width: 400px;
+  background: green;
+}
+.videoBox {
+  width: 73vw;
+  height: 600px;
+  background: #f6f6f4;
+  padding: 20px;
+  position: relative;
+}
+
+#remoteVideo {
+  width: 100%;
+  height: 100%;
+  padding: 5px;
+  border-radius: 20px;
+  background-color: #2a2b2d;
+}
+
+#localVideo {
+  width: 150px;
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 10;
+  margin-left: 40px;
+  margin-top: 40px;
+  border-radius: 20px;
+  border: 2px solid white;
+}
+
+a {
+  text-decoration: none;
+}
+
+.navbar {
+  padding: 3px 25px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.navbar a img {
+  width: 50px;
+  border-radius: 6px;
+}
+.navbar a {
+  display: flex;
+  align-items: center;
+  justify-content: start;
+  gap: 1rem;
+}
+a span {
+  font-size: 22px;
+  color: #2a2b2d;
+}
+#startButton {
+  padding: 8px 25px;
+  background: #0aaefb;
+  color: #fff;
+  border-radius: 10px;
+  border: none;
+  outline: none;
+}
